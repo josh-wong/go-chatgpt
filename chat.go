@@ -147,7 +147,7 @@ func validate(req *ChatCompletionRequest) error {
 	isAllowed := false
 
 	allowedModels := []ChatGPTModel{
-		GPT35Turbo, GPT35Turbo0301, GPT35Turbo0613, GPT35Turbo16k, GPT35Turbo16k0613, GPT4, GPT4_0314, GPT4_0613, GPT4_32k, GPT4_32k_0314, GPT4_32k_0613,
+		GPT4o, GPT4oMini, GPT4Turbo, GPT4, GPT35Turbo,
 	}
 
 	for _, model := range allowedModels {
