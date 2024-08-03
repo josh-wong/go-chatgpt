@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/ayush6624/go-chatgpt"
+	"github.com/josh-wong/go-chatgpt"
 )
 
 func main() {

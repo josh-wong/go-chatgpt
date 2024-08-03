@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	chatgpt_errors "github.com/ayush6624/go-chatgpt/utils"
+	chatgpt_errors "github.com/josh-wong/go-chatgpt/utils"
 )
 
 type ChatGPTModel string

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ayush6624/go-chatgpt/utils"
+	"github.com/josh-wong/go-chatgpt/utils"
 )
 
 const (

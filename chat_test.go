@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	chatgpt_errors "github.com/ayush6624/go-chatgpt/utils"
+	chatgpt_errors "github.com/josh-wong/go-chatgpt/utils"
 	"github.com/stretchr/testify/assert"
 )
 
