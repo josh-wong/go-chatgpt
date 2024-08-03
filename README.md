@@ -15,7 +15,7 @@ Go-ChatGPT is an open-source GoLang client for ChatGPT, a large language model t
 You can install ChatGPT-Go using Go modules:
 
 ```bash
-go get github.com/ayush6624/go-chatgpt
+go get github.com/josh-wong/go-chatgpt
 ```
 
 ## Getting Started
@@ -29,7 +29,7 @@ ___
 1. In your Go code, import the ChatGPT-Go package:
     ```go
     import (
-        "github.com/ayush6624/go-chatgpt"
+        "github.com/josh-wong/go-chatgpt"
     )
     ```
 
@@ -78,5 +78,5 @@ This package is licensed under MIT license. See [LICENSE](./LICENSE) for details
 
 
 ___
-[![codecov](https://codecov.io/gh/ayush6624/go-chatgpt/branch/main/graph/badge.svg?token=2VXFP3238M)](https://codecov.io/gh/ayush6624/go-chatgpt)
-[![Go](https://github.com/ayush6624/go-chatgpt/actions/workflows/go.yml/badge.svg)](https://github.com/ayush6624/go-chatgpt/actions/workflows/go.yml)
+[![codecov](https://codecov.io/gh/josh-wong/go-chatgpt/branch/main/graph/badge.svg?token=2VXFP3238M)](https://codecov.io/gh/josh-wong/go-chatgpt)
+[![Go](https://github.com/josh-wong/go-chatgpt/actions/workflows/go.yml/badge.svg)](https://github.com/josh-wong/go-chatgpt/actions/workflows/go.yml)
