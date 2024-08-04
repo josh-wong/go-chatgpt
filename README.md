@@ -1,16 +1,16 @@
 # Go-ChatGPT
 
-Go-ChatGPT is an open-source GoLang client for ChatGPT, a large language model trained by OpenAI. With Go-ChatGPT, you can quickly and easily integrate ChatGPT's language processing capabilities into your Go applications.
+Go-ChatGPT is an open-source GoLang client for ChatGPT, a large language model trained by OpenAI. With Go-ChatGPT, you can integrate ChatGPT's language processing capabilities into your Go applications.
 
 ## Features
 
 - Provides a GoLang client for ChatGPT.
-- Sends text to ChatGPT and receives a response.
+- Sends text to ChatGPT and receives a response from ChatGPT.
 - Supports GPT3.5 and GPT4 models.
 
 ## Installation
 
-You can install ChatGPT-Go by using Go modules:
+You can install Go-ChatGPT by using Go modules:
 
 ```bash
 go get github.com/josh-wong/go-chatgpt
@@ -26,7 +26,7 @@ export OPENAI_KEY=<YOUR_OPENAI_API_KEY>
 
 ___
 
-1. In your Go code, import the ChatGPT-Go package.
+1. In your Go code, import the Go-ChatGPT package.
 
   ```go
   import (
