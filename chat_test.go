@@ -37,7 +37,7 @@ func TestValidate(t *testing.T) {
 		{
 			name: "Invalid role",
 			request: &ChatCompletionRequest{
-				Model: GPT35Turbo,
+				Model: GPT4oMini,
 				Messages: []ChatMessage{
 					{
 						Role:    "invalid-role",
@@ -50,7 +50,7 @@ func TestValidate(t *testing.T) {
 		{
 			name: "Invalid temperature",
 			request: &ChatCompletionRequest{
-				Model:       GPT35Turbo,
+				Model:       GPT4oMini,
 				Messages:    validRequest().Messages,
 				Temperature: -0.5,
 			},
@@ -59,7 +59,7 @@ func TestValidate(t *testing.T) {
 		{
 			name: "Invalid presence penalty",
 			request: &ChatCompletionRequest{
-				Model:           GPT35Turbo,
+				Model:           GPT4oMini,
 				Messages:        validRequest().Messages,
 				PresencePenalty: -3,
 			},
@@ -68,7 +68,7 @@ func TestValidate(t *testing.T) {
 		{
 			name: "Invalid frequency penalty",
 			request: &ChatCompletionRequest{
-				Model:            GPT35Turbo,
+				Model:            GPT4oMini,
 				Messages:         validRequest().Messages,
 				FrequencyPenalty: -3,
 			},
@@ -86,7 +86,7 @@ func TestValidate(t *testing.T) {
 
 func validRequest() *ChatCompletionRequest {
 	return &ChatCompletionRequest{
-		Model: GPT35Turbo,
+		Model: GPT4oMini,
 		Messages: []ChatMessage{
 			{
 				Role:    ChatGPTModelRoleUser,
@@ -155,7 +155,7 @@ func TestSend(t *testing.T) {
 	defer server.Close()
 
 	_, err := client.Send(context.Background(), &ChatCompletionRequest{
-		Model: GPT35Turbo,
+		Model: GPT4oMini,
 		Messages: []ChatMessage{
 			{
 				Role:    ChatGPTModelRoleUser,
@@ -180,7 +180,7 @@ func TestSend(t *testing.T) {
 	defer server.Close()
 
 	_, err = client.Send(context.Background(), &ChatCompletionRequest{
-		Model: GPT35Turbo,
+		Model: GPT4oMini,
 		Messages: []ChatMessage{
 			{
 				Role:    ChatGPTModelRoleUser,
@@ -194,7 +194,7 @@ func TestSend(t *testing.T) {
 	defer server.Close()
 
 	_, err = client.Send(context.Background(), &ChatCompletionRequest{
-		Model: GPT35Turbo,
+		Model: GPT4oMini,
 		Messages: []ChatMessage{
 			{
 				Role:    ChatGPTModelRoleUser,
