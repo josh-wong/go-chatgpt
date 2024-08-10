@@ -99,7 +99,7 @@ type ChatResponseUsage struct {
 
 func (c *Client) SimpleSend(ctx context.Context, message string) (*ChatResponse, error) {
 	req := &ChatCompletionRequest{
-		Model: GPT35Turbo,
+		Model: GPT4oMini,
 		Messages: []ChatMessage{
 			{
 				Role:    ChatGPTModelRoleUser,

@@ -58,13 +58,13 @@ ___
 
   The SimpleSend method will send the specified text to ChatGPT and return a response. If an error occurs, an error message will be returned.
 
-4. To use a model and/or parameters, use the `Send` API. For example, the following uses the gpt-3.5-turbo (`GPT35Turbo`) model.
+4. To use a model and/or parameters, use the `Send` API. For example, the following uses the gpt-4o-mini (`GPT4oMini`) model.
 
   ```go
   ctx := context.Background()
 
   res, err = c.Send(ctx, &chatgpt.ChatCompletionRequest{
-    Model: chatgpt.GPT35Turbo,
+    Model: chatgpt.GPT4oMini,
     Messages: []chatgpt.ChatMessage{
       {
         Role: chatgpt.ChatGPTModelRoleSystem,
