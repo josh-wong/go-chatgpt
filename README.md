@@ -10,10 +10,10 @@ Go-ChatGPT is an open-source GoLang client for OpenAI's large language models (L
 
 ## Installation
 
-You can install Go-ChatGPT by using Go modules:
+You can install or upgrade Go-ChatGPT by using Go modules, run the following command, replacing `<MAJOR.MINOR.PATCH>` with the version that you want to install:
 
 ```bash
-go get github.com/josh-wong/go-chatgpt
+go install github.com/josh-wong/go-chatgpt@v<MAJOR.MINOR.PATCH>
 ```
 
 ## Getting started
