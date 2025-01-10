@@ -1,12 +1,12 @@
 # Go-ChatGPT
 
-Go-ChatGPT is an open-source GoLang client for ChatGPT, a large language model trained by OpenAI. With Go-ChatGPT, you can integrate ChatGPT's language processing capabilities into your Go applications.
+Go-ChatGPT is an open-source GoLang client for OpenAI's large language models (LLMs). By using this client, you can integrate the language-processing capabilities of OpenAI's LLMs into your Go-based applications.
 
 ## Features
 
-- Provides a GoLang client for ChatGPT.
-- Sends text to ChatGPT and receives a response from ChatGPT.
-- Supports GPT4, GPT4o, and o1 models.
+- Provides a GoLang client for OpenAI's LLMs.
+- Supports OpenAI's GPT-4o, GPT-4o mini, GPT-4, GPT-4 Turbo, o1, and o1-mini models.
+- Sends text to OpenAI and receives a response from the LLM that you chose.
 
 ## Installation
 
@@ -45,7 +45,7 @@ ___
   }
   ```
 
-3. Use the `SimpleSend` API to send text to ChatGPT and get a response.
+3. Use the `SimpleSend` API to send text to OpenAI and get a response.
 
   ```go
   ctx := context.Background()
@@ -56,7 +56,7 @@ ___
   }
   ```
 
-  The SimpleSend method will send the specified text to ChatGPT and return a response. If an error occurs, an error message will be returned.
+  The SimpleSend method will send the specified text to OpenAI and return a response. If an error occurs, an error message will be returned.
 
 4. To use a model and/or parameters, use the `Send` API. For example, the following uses the gpt-4o-mini (`GPT4oMini`) model.
 
