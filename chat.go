@@ -19,7 +19,7 @@ const (
 	GPT4Turbo         ChatGPTModel = "gpt-4-turbo"
 	GPT4              ChatGPTModel = "gpt-4"
 	GPT35Turbo        ChatGPTModel = "gpt-3.5-turbo"
-	o1Preview         ChatGPTModel = "o1-preview"
+	o1                ChatGPTModel = "o1"
 	o1Mini            ChatGPTModel = "o1-mini"
 )
 
@@ -149,7 +149,7 @@ func validate(req *ChatCompletionRequest) error {
 	isAllowed := false
 
 	allowedModels := []ChatGPTModel{
-		GPT4o, GPT4oMini, GPT4Turbo, GPT4, GPT35Turbo, o1Preview, o1Mini,
+		GPT4o, GPT4oMini, GPT4Turbo, GPT4, GPT35Turbo, o1, o1Mini,
 	}
 
 	for _, model := range allowedModels {
