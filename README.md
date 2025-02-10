@@ -14,6 +14,7 @@ Go-ChatGPT is an open-source GoLang client for OpenAI's large language models (L
   - **Reasoning models:**
     - o1
     - o1-mini
+    - o3-mini
 - Sends text to OpenAI and receives a response from the LLM that you chose.
 
 ## Installation
