@@ -20,7 +20,7 @@ const (
 	GPT4              ChatGPTModel = "gpt-4"
 	o1                ChatGPTModel = "o1"
 	o1Mini            ChatGPTModel = "o1-mini"
-	o3Mini						ChatGPTModel = "o3-mini"
+	o3Mini            ChatGPTModel = "o3-mini"
 )
 
 type ChatGPTModelRole string
