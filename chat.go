@@ -20,6 +20,7 @@ const (
 	GPT4              ChatGPTModel = "gpt-4"
 	o1                ChatGPTModel = "o1"
 	o1Mini            ChatGPTModel = "o1-mini"
+	o3Mini						ChatGPTModel = "o3-mini"
 )
 
 type ChatGPTModelRole string
@@ -148,7 +149,7 @@ func validate(req *ChatCompletionRequest) error {
 	isAllowed := false
 
 	allowedModels := []ChatGPTModel{
-		GPT4o, GPT4oMini, GPT4Turbo, GPT4, o1, o1Mini,
+		GPT4o, GPT4oMini, GPT4Turbo, GPT4, o1, o1Mini, o3Mini,
 	}
 
 	for _, model := range allowedModels {
