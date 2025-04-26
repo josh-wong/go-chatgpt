@@ -14,7 +14,6 @@ type ChatGPTModel string
 const (
 	// The models listed below point to their respective latest model version. 
 	// For details about models, see https://platform.openai.com/docs/models.
-	GPT4oMini         ChatGPTModel = "gpt-4o-mini"
 	// Reasoning models
 	o4Mini                    ChatGPTModel = "o4-mini"
 	o3                        ChatGPTModel = "o3"
@@ -27,6 +26,11 @@ const (
 	GPT4o                     ChatGPTModel = "gpt-4o"
 	GPT4oAudioPreview         ChatGPTModel = "gpt-4o-audio-preview"
 	ChatGPT4o                 ChatGPTModel = "chatgpt-4o-latest"
+	// Cost-optimized models
+	GPT4_1Mini                ChatGPTModel = "gpt-4.1-mini"
+	GPT4_1Nano                ChatGPTModel = "gpt-4.1-nano"
+	GPT4oMini                 ChatGPTModel = "gpt-4o-mini"
+	GPT4_1Audio               ChatGPTModel = "gpt-4.1-audio-preview"
 )
 
 type ChatGPTModelRole string
