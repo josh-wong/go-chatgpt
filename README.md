@@ -5,17 +5,92 @@ Go-ChatGPT is an open-source GoLang client for OpenAI's large language models (L
 ## Features
 
 - Provides a GoLang client for OpenAI's LLMs.
-- Supports the following OpenAI models:
-  - **GPT models:**
-    - GPT-4o
-    - GPT-4o mini
-    - GPT-4
-    - GPT-4 Turbo
-  - **Reasoning models:**
-    - o1
-    - o1-mini
-    - o3-mini
+- Supports a variety of [OpenAI models](#list-of-supported-models).
 - Sends text to OpenAI and receives a response from the LLM that you chose.
+
+### List of supported models
+
+<details>
+<summary>💭Reasoning models</summary>
+
+| **Model name**                        | **Alias**                                      |
+| ---------------------------------- | ----------------------------------- |
+| **o4Mini✨**                            | `o4-mini`                                      |
+| **o3✨**                                   | `o3`                                              |
+| **o3Mini**                                 | `o3-mini`                                      |
+| **o1**                                        | `o1`                                              |
+| **o1Mini**                                 | `o1-mini`                                      |
+| **o1Pro✨**                              | `o1-pro`                                       |
+</details>
+
+<details>
+<summary>💬Flagship chat models</summary>
+
+| **Model name**                          | **Alias**                                      |
+| ----------------------------------- | ----------------------------------- |
+| **GPT4_1✨**                             | `gpt-4.1`                                      |
+| **GPT4o**                                   | `gpt-4o`                                       |
+| **GPT4oAudioPreview✨**        | `gpt-4o-audio-preview`             |
+| **ChatGPT4o✨**                       | `chatgpt-4o-latest`                    |
+</details>
+
+<details>
+<summary>💵Cost-optimized models</summary>
+
+| **Model name**                          | **Alias**                                      |
+| ----------------------------------- | ----------------------------------- |
+| **GPT4_1Mini✨**                      | `gpt-4.1-mini`                             |
+| **GPT4_1Nano✨**                    | `gpt-4.1-nano`                           |
+| **GPT4oMini**                            | `gpt-4o-mini`                             |
+| **GPT4_1Audio✨**                   | `gpt-4.1-audio-preview`             |
+</details>
+<details>
+<summary>⌚Realtime models</summary>
+
+| **Model name**                          | **Alias**                                      |
+| ----------------------------------- | ----------------------------------- |
+| **GPT4oRealtime✨**                | `gpt-4o-realtime-preview`          |
+| **GPT4oMiniRealtime✨**         | `gpt-4o-mini-realtime-preview` |
+</details>
+
+<details>
+<summary>🖼️Image generation models</summary>
+
+| **Model name**                          | **Alias**                                      |
+| ----------------------------------- | ----------------------------------- |
+| **GPTImage1✨**                      | `gpt-image-1`                             |
+| **DALLE3✨**                             | `dall-e-3`                                    |
+</details>
+
+<details>
+<summary>🗣️Text-to-speech models</summary>
+
+| **Model name**                          | **Alias**                                      |
+| ----------------------------------- | ----------------------------------- |
+| **GPT4oMiniTTS✨**                 | `gpt-4o-mini-tts`                         |
+| **TTS1✨**                                 | `tts-1`                                          |
+| **TTS1HD✨**                            | `tts-1-hd`                                    |
+</details>
+
+<details>
+<summary>✍🏻Transcription models</summary>
+
+| **Model name**                          | **Alias**                                      |
+| ----------------------------------- | ----------------------------------- |
+| **GPT4oTranscribe✨**              | `gpt-4o-transcribe`                     |
+| **GPT4oMiniTranscribe✨**       | `gpt-4o-mini-transcribe`            |
+| **Whisper✨**                            | `whisper-1`                                 |
+</details>
+
+<details>
+<summary>🛠️Tool-specific models</summary>
+
+| **Model name**                          | **Alias**                                      |
+| ----------------------------------- | ----------------------------------- |
+| **GPT4oSearchPreview✨**        | `gpt-4o-search-preview`            |
+| **GPT4oMiniSearchPreview✨** | `gpt-4o-mini-search-preview`   |
+| **ComputerUsePreview✨**       | `computer-use-preview`            |
+</details>
 
 ## Installation
 
