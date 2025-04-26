@@ -16,9 +16,13 @@ const (
 	// For details about models, see https://platform.openai.com/docs/models.
 	GPT4o             ChatGPTModel = "gpt-4o"
 	GPT4oMini         ChatGPTModel = "gpt-4o-mini"
-	o1                ChatGPTModel = "o1"
-	o1Mini            ChatGPTModel = "o1-mini"
-	o3Mini            ChatGPTModel = "o3-mini"
+	// Reasoning models
+	o4Mini                    ChatGPTModel = "o4-mini"
+	o3                        ChatGPTModel = "o3"
+	o3Mini                    ChatGPTModel = "o3-mini"
+	o1                        ChatGPTModel = "o1"
+	o1Mini                    ChatGPTModel = "o1-mini"
+	o1Pro                     ChatGPTModel = "o1-pro"
 )
 
 type ChatGPTModelRole string
