@@ -20,8 +20,6 @@ const (
 	o3Mini            ChatGPTModel = "o3-mini"
 	// Flagship chat models
 	GPT4o             ChatGPTModel = "gpt-4o"
-	GPT4Turbo         ChatGPTModel = "gpt-4-turbo"
-	GPT4              ChatGPTModel = "gpt-4"
 	// Cost-optimized models
 	GPT4oMini         ChatGPTModel = "gpt-4o-mini"
 	// Realtime models
