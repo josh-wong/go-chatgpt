@@ -15,9 +15,12 @@ const (
 	// The models listed below point to their respective latest model version. 
 	// For details about models, see https://platform.openai.com/docs/models.
 	// Reasoning models
-	o1                ChatGPTModel = "o1"
-	o1Mini            ChatGPTModel = "o1-mini"
-	o3Mini            ChatGPTModel = "o3-mini"
+	o4Mini                    ChatGPTModel = "o4-mini"
+	o3                        ChatGPTModel = "o3"
+	o3Mini                    ChatGPTModel = "o3-mini"
+	o1                        ChatGPTModel = "o1"
+	o1Mini                    ChatGPTModel = "o1-mini"
+	o1Pro                     ChatGPTModel = "o1-pro"
 	// Flagship chat models
 	GPT4o             ChatGPTModel = "gpt-4o"
 	// Cost-optimized models
