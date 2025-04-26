@@ -37,6 +37,10 @@ const (
 	// Image generation models
 	GPTImage1                 ChatGPTModel = "gpt-image-1"
 	DALLE3                    ChatGPTModel = "dall-e-3"
+	// Text-to-speech
+	GPT4oMiniTTS              ChatGPTModel = "gpt-4o-mini-tts"
+	TTS1                      ChatGPTModel = "tts-1"
+	TTS1HD                    ChatGPTModel = "tts-1-hd"
 )
 
 type ChatGPTModelRole string
