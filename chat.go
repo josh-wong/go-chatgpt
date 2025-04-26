@@ -32,6 +32,8 @@ const (
 	GPT4oMini                 ChatGPTModel = "gpt-4o-mini"
 	GPT4_1Audio               ChatGPTModel = "gpt-4.1-audio-preview"
 	// Realtime models
+	GPT4oRealtime             ChatGPTModel = "gpt-4o-realtime-preview"
+	GPT4oMiniRealtime         ChatGPTModel = "gpt-4o-mini-realtime-preview"
 	// Image generation models
 	// Text-to-speech
 	// Transcription
