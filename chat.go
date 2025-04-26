@@ -42,6 +42,9 @@ const (
 	TTS1                      ChatGPTModel = "tts-1"
 	TTS1HD                    ChatGPTModel = "tts-1-hd"
 	// Transcription
+	GPT4oTranscribe           ChatGPTModel = "gpt-4o-transcribe"
+	GPT4ominiTranscribe       ChatGPTModel = "gpt-4o-mini-transcribe"
+	Whisper                   ChatGPTModel = "whisper-1"
 	// Tool-specific models
 )
 
