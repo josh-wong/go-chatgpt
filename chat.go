@@ -41,6 +41,10 @@ const (
 	GPT4oMiniTTS              ChatGPTModel = "gpt-4o-mini-tts"
 	TTS1                      ChatGPTModel = "tts-1"
 	TTS1HD                    ChatGPTModel = "tts-1-hd"
+	// Transcription
+	GPT4oTranscribe           ChatGPTModel = "gpt-4o-transcribe"
+	GPT4oMiniTranscribe       ChatGPTModel = "gpt-4o-mini-transcribe"
+	Whisper                   ChatGPTModel = "whisper-1"
 )
 
 type ChatGPTModelRole string
