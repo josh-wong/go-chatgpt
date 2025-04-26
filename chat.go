@@ -14,13 +14,41 @@ type ChatGPTModel string
 const (
 	// The models listed below point to their respective latest model version. 
 	// For details about models, see https://platform.openai.com/docs/models.
-	GPT4o             ChatGPTModel = "gpt-4o"
-	GPT4oMini         ChatGPTModel = "gpt-4o-mini"
-	GPT4Turbo         ChatGPTModel = "gpt-4-turbo"
-	GPT4              ChatGPTModel = "gpt-4"
-	o1                ChatGPTModel = "o1"
-	o1Mini            ChatGPTModel = "o1-mini"
-	o3Mini            ChatGPTModel = "o3-mini"
+	// Reasoning models
+	o4Mini                    ChatGPTModel = "o4-mini"
+	o3                        ChatGPTModel = "o3"
+	o3Mini                    ChatGPTModel = "o3-mini"
+	o1                        ChatGPTModel = "o1"
+	o1Mini                    ChatGPTModel = "o1-mini"
+	o1Pro                     ChatGPTModel = "o1-pro"
+	// Flagship chat models
+	GPT4_1                    ChatGPTModel = "gpt-4.1"
+	GPT4o                     ChatGPTModel = "gpt-4o"
+	GPT4oAudioPreview         ChatGPTModel = "gpt-4o-audio-preview"
+	ChatGPT4o                 ChatGPTModel = "chatgpt-4o-latest"
+	// Cost-optimized models
+	GPT4_1Mini                ChatGPTModel = "gpt-4.1-mini"
+	GPT4_1Nano                ChatGPTModel = "gpt-4.1-nano"
+	GPT4oMini                 ChatGPTModel = "gpt-4o-mini"
+	GPT4_1Audio               ChatGPTModel = "gpt-4.1-audio-preview"
+	// Realtime models
+	GPT4oRealtime             ChatGPTModel = "gpt-4o-realtime-preview"
+	GPT4oMiniRealtime         ChatGPTModel = "gpt-4o-mini-realtime-preview"
+	// Image generation models
+	GPTImage1                 ChatGPTModel = "gpt-image-1"
+	DALLE3                    ChatGPTModel = "dall-e-3"
+	// Text-to-speech
+	GPT4oMiniTTS              ChatGPTModel = "gpt-4o-mini-tts"
+	TTS1                      ChatGPTModel = "tts-1"
+	TTS1HD                    ChatGPTModel = "tts-1-hd"
+	// Transcription
+	GPT4oTranscribe           ChatGPTModel = "gpt-4o-transcribe"
+	GPT4oMiniTranscribe       ChatGPTModel = "gpt-4o-mini-transcribe"
+	Whisper                   ChatGPTModel = "whisper-1"
+	// Tool-specific models
+	GPT4oSearchPreview        ChatGPTModel = "gpt-4o-search-preview"
+	GPT4oMiniSearchPreview    ChatGPTModel = "gpt-4o-mini-search-preview"
+	ComputerUsePreview        ChatGPTModel = "computer-use-preview"
 )
 
 type ChatGPTModelRole string
