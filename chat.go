@@ -22,7 +22,10 @@ const (
 	o1Mini                    ChatGPTModel = "o1-mini"
 	o1Pro                     ChatGPTModel = "o1-pro"
 	// Flagship chat models
-	GPT4o             ChatGPTModel = "gpt-4o"
+	GPT4_1                    ChatGPTModel = "gpt-4.1"
+	GPT4o                     ChatGPTModel = "gpt-4o"
+	GPT4oAudioPreview         ChatGPTModel = "gpt-4o-audio-preview"
+	ChatGPT4o                 ChatGPTModel = "chatgpt-4o-latest"
 	// Cost-optimized models
 	GPT4oMini         ChatGPTModel = "gpt-4o-mini"
 	// Realtime models
