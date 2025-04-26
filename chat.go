@@ -46,6 +46,9 @@ const (
 	GPT4ominiTranscribe       ChatGPTModel = "gpt-4o-mini-transcribe"
 	Whisper                   ChatGPTModel = "whisper-1"
 	// Tool-specific models
+	GPT4oSearchPreview        ChatGPTModel = "gpt-4o-search-preview"
+	GPT4oMiniSearchPreview    ChatGPTModel = "gpt-4o-mini-search-preview"
+	ComputerUsePreview        ChatGPTModel = "computer-use-preview"
 )
 
 type ChatGPTModelRole string
