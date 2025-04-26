@@ -35,6 +35,8 @@ const (
 	GPT4oRealtime             ChatGPTModel = "gpt-4o-realtime-preview"
 	GPT4oMiniRealtime         ChatGPTModel = "gpt-4o-mini-realtime-preview"
 	// Image generation models
+	GPTImage1                 ChatGPTModel = "gpt-image-1"
+	DALLE3                    ChatGPTModel = "dall-e-3"
 	// Text-to-speech
 	// Transcription
 	// Tool-specific models
