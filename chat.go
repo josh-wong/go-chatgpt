@@ -16,8 +16,6 @@ const (
 	// For details about models, see https://platform.openai.com/docs/models.
 	GPT4o             ChatGPTModel = "gpt-4o"
 	GPT4oMini         ChatGPTModel = "gpt-4o-mini"
-	GPT4Turbo         ChatGPTModel = "gpt-4-turbo"
-	GPT4              ChatGPTModel = "gpt-4"
 	o1                ChatGPTModel = "o1"
 	o1Mini            ChatGPTModel = "o1-mini"
 	o3Mini            ChatGPTModel = "o3-mini"
